@@ -1,0 +1,8 @@
+{
+    "apiEndPoints" : 
+    {
+        "domainHost": "https://localhost:5001",
+        "bankAccount" : "https://localhost:5001/BankAccount"        
+    },
+    "authCookieName" : "probettingjwt"
+}

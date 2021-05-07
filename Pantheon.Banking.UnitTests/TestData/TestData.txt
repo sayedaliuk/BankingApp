@@ -1,0 +1,20 @@
+{
+  "accountNumber": "22451190",
+  "sortCode": "231120"
+}
+
+{
+  "currency": "GBP",
+  "accountNumber": "22451190",
+  "sortCode": "231120",
+  "amount": 9000
+}
+
+{
+  "currency": "CHF",
+  "accountNumber": "22451190",
+  "sortCode": "231120",
+  "amount": 10000
+}
+
+https://api.ratesapi.io/api/latest?base=CHF&symbols=GBP

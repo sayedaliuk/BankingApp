@@ -1,0 +1,19 @@
+<div class="info-panel" *ngIf="messages?.length > 0">
+    <div>
+        <p *ngFor="let m of messages">{{m}}</p>
+    </div>
+</div>
+
+<div class="search-cmp"> 
+    <fieldset>
+        <label>SORT CODE</label>
+        <input type="number" minlength="6" maxlength="6" required [(ngModel)]='sortCode'  />
+    </fieldset>
+    <fieldset>
+        <label>ACCOUNT NO</label>
+        <input type="number" minlength="12" maxlength="8" required [(ngModel)]='accountNumber'  />
+    </fieldset>  
+    <fieldset>
+        <button type="button" (click)="onSubmit()" > LOAD ACCOUNT</button>
+    </fieldset>     
+</div>

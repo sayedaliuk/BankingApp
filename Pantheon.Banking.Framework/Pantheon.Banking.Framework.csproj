@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pantheon.Banking.Data\Pantheon.Banking.Data.csproj" />
+    <ProjectReference Include="..\Pantheon.Banking.Domain\Pantheon.Banking.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

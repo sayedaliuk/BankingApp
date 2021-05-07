@@ -1,0 +1,222 @@
+/****** common style *********/
+body{
+  background-color: #000;
+  background-attachment: fixed;
+  background-image: url('./assets/images/banking.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  border-radius: 2px;
+   height:35px;
+   min-width: 100px;
+   margin:1px;
+   padding:4px;
+   background-color: #0bb305;
+   border: 1px solid #ffffff;
+   font-size: 1em;
+   font-weight: bold;
+   color:#fff;
+   cursor: pointer;
+   vertical-align: middle;
+}
+
+ button:hover{  
+    border:2px solid rgb(134, 235, 52);
+ }
+
+ button:disabled {
+  background-color: #e6e6e6;
+  color: #8a8a8a;
+}
+
+ .module-heading{
+   margin:-8px;
+   height: 40px;
+   margin-bottom: 5px;
+   padding-top: 10px;
+   padding-left:10px;
+   border-bottom: 1px solid #424141;
+   background-color:rgba(0,0,0,0.3);
+   color:#fff;
+   font-size: 1.5em;
+   font-weight: bold;
+   display:flex;
+   align-items: center;
+   vertical-align: baseline;
+ }
+   
+ .wid {
+   display: inline-block;
+   border-radius: 5px;
+   border: 1px solid #101124;
+   padding:1px;
+   margin:5px;
+   margin-top:10px;   
+   background: rgba(0,0,0,0.4);
+   max-width: 98%;
+   overflow-x: scroll;
+}
+
+.wid table
+{
+   border-top : 1px solid #424141;
+   border-bottom : 1px solid #424141;
+   padding: 2px;
+   margin:2px;    
+   font-size: 1em;
+}
+  
+.wid th  
+{
+  padding: 2px;
+  border: 1px solid #424141; 
+  max-width: 100px;    
+  background-color: #b4d6d8;
+  color: rgb(49, 66, 88);
+  text-align: center;
+}
+
+.wid td
+{
+  min-width: 80px;
+  text-align: center;
+  padding: 2px;
+  font-weight: 500;
+  color:#fff;
+}
+
+.wid .hdg 
+{
+  background-color: #f1628d;
+  color:#fff;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 1px;
+  text-align: center;
+}
+
+.wid-horizontal-scroll{
+  width:99%;
+  overflow: scroll;
+}
+
+div::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+div::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+div::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
+.search-cmp {
+  align-items: center;
+  margin-left: 32px;
+}
+
+.search-cmp fieldset {
+   display:inline-table;
+   padding:10px;
+   border:0px;
+}
+
+.search-cmp label {
+   margin:5px;
+   color:#fff;
+   font-weight: 500;
+}
+
+.search-cmp select {
+   padding:5px;
+   border-radius: 5px;
+   border-color: #fff;
+   min-width: 100px;
+   padding: 5px;
+   height:25px;
+   background-color: #f77da1;
+   color:#fff;
+   font-weight: bold;     
+   font-size: 1em;
+}
+
+.search-cmp input[type="text"] {
+  padding:5px;
+  border-radius: 5px;
+  border-color: #fff;
+  min-width: 100px;
+  padding: 5px;
+  height:25px;
+  background-color: #f77da1;
+  color:#fff;
+  font-weight: bold;     
+  font-size: 1em;
+}
+
+.search-cmp input[type="number"] {
+  padding:5px;
+  border-radius: 5px;
+  border-color: #fff;
+  min-width: 100px;
+  padding: 5px;
+  height:25px;
+  background-color: #f77da1;
+  color:#fff;
+  font-weight: bold;     
+  font-size: 1em;
+}
+
+.search-cmp input {
+  padding:2px;
+  border-radius: 5px;
+  border-color: #fff;
+  width: 150px;
+  padding: 3px;
+  height:25px;
+  background-color: #f77da1;
+  color:#fff;
+  font-weight: bold;     
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.info-panel div
+{
+  border-radius: 5px;
+  border: 1px solid #80281c;
+  width: 40%;
+  height:auto;
+  margin : 20px;
+  padding: 2px;
+  background-color: rgba(250, 66, 20, 0.4);
+  color:#fff;
+  font-weight: 500;     
+  font-size: 1em;
+  vertical-align: middle;
+  text-align: center;
+}
+
+h2{
+  font-weight: 500;
+  color:#80281c;
+  margin:4%;
+}
+
+ /*****  MEDIA QUERIES ***********/
+
+@media screen and (max-width: 767px) {
+
+}
+@media screen and (max-width: 575px) {
+
+}
+

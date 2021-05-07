@@ -1,0 +1,16 @@
+<h2>DEPOSIT FUNDS</h2>
+
+<div class="search-cmp"> 
+    <fieldset>
+        <label>AMOUNT</label>
+        <input type="number" required [(ngModel)]='amount'  />
+    </fieldset>
+    <fieldset>
+        <label>CURRENCY</label>
+        <input type="text" minlength="3" maxlength="5" required [(ngModel)]='currency'  />
+    </fieldset>  
+    <fieldset>
+        <button type="button" (click)="onSubmit()" > DEPOSIT</button>
+    </fieldset>     
+</div>
+

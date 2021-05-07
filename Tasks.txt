@@ -1,0 +1,22 @@
+The primary objective of this technical challenge is to assess fundamental programming skills by producing a very simple, 
+yet elegant solution to the problem outlined below.
+
+Using design patterns and architecture decisions of your choosing, produce a light-weight banking application that enables the following:
+As a user, I need to see the current balance of my account, so I know how much money I do, or do not have.
+As a user, I need the ability to withdraw funds from my account so that I can pay for goods and services.
+As a user, I need the ability for money to be deposited into my account so that I can withdraw it later.
+As the system, I need the ability to accept deposits in different currencies so that the customer is not restricted to a local currency.
+
+Constraints and Assumptions:
+
+Bank funds are not able to be negative.
+Utilise the API at https://ratesapi.io/ (or another public foreign exchange API) for currency conversion.
+There are no transactional or exchange fees, and you can choose the base currency for the solution.
+You must use Angular (JS or 2+) as your technology for the frontend application.
+You must use .NET Core (C#) as backend technology.
+You must use MSSQL Server as your database technology.
+
+Please upload your final solution packaged and tested to a publicly available GitHub (or other publicly accessible git) repository.
+We value your time and as such do not expect you to fully complete all the above stories. 
+For the stories that have been implemented we will evaluate your attention to detail, approach to testing, 
+design pattern selection, developer documentation and fundamentals like error handling.

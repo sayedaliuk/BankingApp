@@ -1,0 +1,20 @@
+<p class="module-heading" *ngIf="module-heading?.length > 0">{{moduleHeading | uppercase}}</p>
+
+
+<nav>
+    <a [routerLink]="['deposit']">Deposit Funds</a> 
+    <a [routerLink]="['withdraw']">Withdraw Funds</a> 
+    <a [routerLink]="['logout']">Logout</a> 
+</nav>
+
+<div class="account-summary-panel" >    
+    <label class="info">ACCOUNT NO : </label><label class="data">{{ accountNumber }}</label> 
+    <label class="info">SORT CODE  : </label><label class="data">{{ sortCode }}</label> 
+    <label class="info">BALANCE    : </label><label class="data">{{ accountBalance | number: '4.2-2' }}</label>    
+</div>
+
+<div class="info-panel" *ngIf="messages?.length > 0">
+    <div>
+        <p *ngFor="let m of messages">{{m}}</p>
+    </div>
+</div>
