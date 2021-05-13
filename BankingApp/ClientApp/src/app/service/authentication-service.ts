@@ -78,7 +78,7 @@ export class AuthenticationService {
   }
 
   navigateToAccountManagment() {        
-    this.router.navigate(['/accountManagment']);   
+    this.router.navigate(['/accountManagement']);   
   }
 
   routeToLogin() {    

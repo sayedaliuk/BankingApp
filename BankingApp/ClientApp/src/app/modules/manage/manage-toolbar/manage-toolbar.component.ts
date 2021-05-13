@@ -32,8 +32,8 @@ export class ManageToolbarComponent implements OnInit, OnDestroy {
     });
 
     this.svcErrorObs = this.bankSvc.errorsChanged.subscribe(x => {
-      if(x !== null){
-        this.messages.length = 0;
+      this.messages.length = 0;
+      if(x !== null){       
         this.messages.push(x);
       }
     });
